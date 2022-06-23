@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class FlipCoin {
     public static void main(String[] args) {
 
-        double head= 0;
+        double head = 0;
         double results;
         int nTimes;
 
@@ -16,10 +16,8 @@ public class FlipCoin {
             nTimes = sc.nextInt();
            if(nTimes>0)
                break;
-
            System.out.println("enter positive integer number");
            System.out.println("******************************");
-
        }
         while (nTimes<1000){
             results = Math.random();
